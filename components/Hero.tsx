@@ -28,12 +28,13 @@ function Hero() {
                 />
             </div>
 
-            <div className='hero__image-container pt-36'>
+            <div className='hero__image-container'>
                 <div className='hero__image'>
                     <Image src='/hero.png' alt="Hero Image" fill className="object-contain">
                     </Image>
-                    <div className='hero__image-overlay' />
                 </div>
+                <div className='hero__image-overlay' />
+
             </div>
         </div>
     )
